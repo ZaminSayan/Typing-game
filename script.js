@@ -17,6 +17,7 @@ const quoteElement = document.getElementById('quote');
 const messageElement = document.getElementById('message');
 const typedValueElement = document.getElementById('typed-value');
 
+
 document.getElementById('start').addEventListener('click', () => {
     // get a quote
     const quoteIndex = Math.floor(Math.random() * quotes.length);
